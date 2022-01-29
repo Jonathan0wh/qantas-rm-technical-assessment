@@ -1,0 +1,20 @@
+{
+  "airportInfo": {
+    "SYD": {
+      "heading": "Sydney",
+      "description": "Sydney Airport is located within the suburbs of Mascot in Sydney, New South Wales, Australia. It is the only major airport handling the Sydney area and with over 36 million passengers per year it is Australia's busiest airport."
+    },
+    "MEL": {
+      "heading": "Melbourne",
+      "description": "Melbourne Airport, colloquially known as Tullamarine Airport, is the primary airport serving the city of Melbourne, and the second busiest airport in Australia. It opened in 1970 to replace the nearby Essendon Airport."
+    },
+    "BNE": {
+      "heading": "Brisbane",
+      "description": "Brisbane Airport is the primary international airport serving Brisbane and South East Queensland. The airport services 31 airlines flying to 50 domestic and 29 international destinations, in total amounting in more than 22.7 million passengers who travelled through the airport in 2016."
+    },
+    "ADL": {
+      "heading": "Adelaide",
+      "description": "Adelaide Airport is the principal airport of Adelaide, South Australia and the fifth-busiest airport in Australia, servicing just over eight million passengers in the financial year ending 30 June 2017. Located adjacent to West Beach, it is approximately 6 km west of the city centre. "
+    }
+  }
+}
