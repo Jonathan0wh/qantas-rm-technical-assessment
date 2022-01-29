@@ -3,18 +3,20 @@ const fs = require("fs");
 const PORT = 1234;
 const app = express();
 
-let { airports } = JSON.parse(fs.readFileSync("./airports.json", "utf8"));
+let { airports } = JSON.parse(
+  fs.readFileSync(__dirname + "/airports.json", "utf8")
+);
 
 airports = airports.map(({ country, ...airport }) => {
   return {
     city: airport.display_name,
     country: country.display_name,
     countryCode: country.code,
-    airportCode: airport.code
+    airportCode: airport.code,
   };
 });
 const { airportInfo } = JSON.parse(
-  fs.readFileSync("./airportInfo.json", "utf8")
+  fs.readFileSync(__dirname + "/airportInfo.json", "utf8")
 );
 
 app.use((req, res, next) => {
